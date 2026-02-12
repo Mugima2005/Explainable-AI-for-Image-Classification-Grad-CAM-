@@ -67,10 +67,10 @@ Explainability improves confidence in model predictions
 
 # 🚀 How to Run
 # Train the model
-python train_model.py
+python load_model.py
 
 # Generate Grad-CAM explanation
-python gradcam_full.py
+python gradcam.py
 
 # 🛠 Technologies Used
 
