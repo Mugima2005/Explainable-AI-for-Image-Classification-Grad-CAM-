@@ -1,9 +1,9 @@
-##Explainable AI for Image Classification using Grad-CAM
-#📌 Project Overview
+## Explainable AI for Image Classification using Grad-CAM
+# 📌 Project Overview
 
 This project implements a CNN-based image classification system for crop disease detection and enhances it with Explainable AI using Grad-CAM. The model classifies leaf images into Healthy and Blight categories and visualizes the image regions that influence its predictions.
 
-#🎯 Objectives
+# 🎯 Objectives
 
 Build an image classification model using a Convolutional Neural Network (ResNet18)
 
@@ -13,7 +13,7 @@ Improve transparency and trust in deep learning models
 
 Validate that predictions are based on disease-affected regions
 
-#🧠 Model & Techniques
+# 🧠 Model & Techniques
 
 Model: ResNet18 (Pre-trained)
 
@@ -23,7 +23,7 @@ Explainability: Gradient-weighted Class Activation Mapping (Grad-CAM)
 
 Hardware Acceleration: CUDA-enabled GPU
 
-#📂 Dataset Structure
+# 📂 Dataset Structure
 dataset/
  ├── train/
  │    ├── Healthy/
@@ -37,7 +37,7 @@ Folder names represent class labels
 
 Images are resized to 224×224 for model input
 
-#⚙️ Workflow
+# ⚙️ Workflow
 
 Load and preprocess image dataset
 
@@ -49,7 +49,7 @@ Apply Grad-CAM to visualize important image regions
 
 Save Grad-CAM heatmaps for analysis
 
-#📊 Output
+# 📊 Output
 
 Predicted class label (Healthy / Blight)
 
@@ -57,7 +57,7 @@ Grad-CAM heatmap highlighting influential regions
 
 Saved explanation images for reporting and visualization
 
-#🧪 Results
+# 🧪 Results
 
 The model successfully classifies crop leaf images
 
@@ -65,14 +65,14 @@ Grad-CAM highlights disease-affected regions, confirming correct model learning
 
 Explainability improves confidence in model predictions
 
-#🚀 How to Run
+# 🚀 How to Run
 # Train the model
 python train_model.py
 
 # Generate Grad-CAM explanation
 python gradcam_full.py
 
-#🛠 Technologies Used
+# 🛠 Technologies Used
 
 Python
 
@@ -86,7 +86,7 @@ NumPy
 
 CUDA
 
-#📌 Key Learnings
+# 📌 Key Learnings
 
 CNN-based image classification
 
@@ -96,7 +96,7 @@ GPU-accelerated deep learning
 
 Importance of interpretable AI in real-world applications
 
-#👤 Author
+# 👤 Author
 
 Mugima S
 B.Tech Artificial Intelligence and Data Science
